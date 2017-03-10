@@ -1,0 +1,1 @@
+- Apuntador.cs : se crea la barra de vida enemiga en el canvas y se le asigna este script y le colocas en la variable Target el enemigo o el objetivo.
