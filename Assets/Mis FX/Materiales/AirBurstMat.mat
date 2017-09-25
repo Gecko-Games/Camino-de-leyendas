@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AirBurstMat
+  m_Shader: {fileID: 4800000, guid: ba495226acd42474a91738818e4ca033, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Alpha
+      second:
+        m_Texture: {fileID: 2800000, guid: 18bfce7794338ea488b7abcb10ce750d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _AlphaTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 4fade2a670123394d951d915e832d5e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 463f3e17448c6f147a7b7811acdfb56f, type: 3}
+        m_Scale: {x: 1, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 4fade2a670123394d951d915e832d5e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: b5b324cd31fa03a4f8a3093f56b9e2aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 58a059b07b093a745b47c2191525ddce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Refraction
+      second:
+        m_Texture: {fileID: 2800000, guid: 26d497ffa6fb8224dba7dcab5a510049, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture
+      second:
+        m_Texture: {fileID: 2800000, guid: 463f3e17448c6f147a7b7811acdfb56f, type: 3}
+        m_Scale: {x: 1, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Colorpower
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Deformation
+      second: 0.4
+    - first:
+        name: _Exp
+      second: 10
+    - first:
+        name: _ExpAlpha
+      second: 3
+    - first:
+        name: _FresnelPow
+      second: 1
+    - first:
+        name: _Intensity
+      second: 1
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _ModColorValue
+      second: 100
+    - first:
+        name: _NormalOffset
+      second: 0
+    - first:
+        name: _RefractionIntensity
+      second: 1
+    - first:
+        name: _Scale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.11764706, g: 0.11764706, b: 1, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0, g: 0.203, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.309, g: 0.378, b: 1, a: 1}

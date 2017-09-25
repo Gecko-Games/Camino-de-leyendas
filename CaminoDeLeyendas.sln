@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaminoDeLeyendas.Plugins", "CaminoDeLeyendas.Plugins.csproj", "{173DFD85-C82E-AC91-3AFC-5C07B8131E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaminoDeLeyendas", "CaminoDeLeyendas.csproj", "{EDFF3793-9F80-1C8F-6C43-F9306A997C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaminoDeLeyendas.Editor", "CaminoDeLeyendas.Editor.csproj", "{680AAD43-7671-19A3-5902-128FA9D04335}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173DFD85-C82E-AC91-3AFC-5C07B8131E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173DFD85-C82E-AC91-3AFC-5C07B8131E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173DFD85-C82E-AC91-3AFC-5C07B8131E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173DFD85-C82E-AC91-3AFC-5C07B8131E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFF3793-9F80-1C8F-6C43-F9306A997C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFF3793-9F80-1C8F-6C43-F9306A997C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFF3793-9F80-1C8F-6C43-F9306A997C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFF3793-9F80-1C8F-6C43-F9306A997C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680AAD43-7671-19A3-5902-128FA9D04335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680AAD43-7671-19A3-5902-128FA9D04335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680AAD43-7671-19A3-5902-128FA9D04335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680AAD43-7671-19A3-5902-128FA9D04335}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
