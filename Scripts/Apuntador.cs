@@ -20,10 +20,10 @@ public class Apuntador : MonoBehaviour {
 	}
     void LateUpdate()
     {
-        Pos = Camera.main.WorldToScreenPoint(Target.Find("Cube").position);
+        Pos = Camera.main.WorldToScreenPoint(Target.FindChild("Cube").position);
         if (Pos.z > 0)
         {
-            PosG = Camera.main.WorldToScreenPoint(Target.Find("Cube").position);
+            PosG = Camera.main.WorldToScreenPoint(Target.FindChild("Cube").position);
         }
         transform.position = PosG;
     }
